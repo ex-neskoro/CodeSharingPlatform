@@ -54,9 +54,6 @@ public class Code {
     }
 
     public Code(String code, long time, int views) {
-//        uuid = UUID.randomUUID();
-//        date = dateTimeInit();
-//        this.code = code;
         this(code);
         this.time = time;
         this.views = views;
